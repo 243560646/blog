@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { 
+	text-align:left; 
+}
+h2 { 
+	position:absolute; 
+	left:44%; top:0;
+}
+#div {
+	margin-top:50px; 
+	margin-left:5%;
+}
+#div_span { 
+	float:left; 
+	margin-right:30px;
+}
+#div_input { 
+	float:left;
+}
+input {
+	margin-top:20px; 
+	height:55px; 
+	width:300px; 
+	border-radius:10px; 
+	font-size:24px; 
+}
+input {
+
+	transition: all 0.30s ease-in-out;
+	
+	-webkit-transition: all 0.30s ease-in-out;
+	
+	-moz-transition: all 0.30s ease-in-out;
+	
+	border:#B4B4B4 2px solid;
+	
+	border-radius: 9px;
+	
+	outline: none;
+
+}
+input:focus{                                 
+	border: #00F 2px solid;
+	
+	box-shadow: 0 0 7px #00F;
+	
+	-webkit-box-shadow: 0 0 7px rgba(81, 203, 238, 1);
+	
+	-moz-box-shadow: 0 0 7px rgba(81, 203, 238, 1);
+}
+ 
+textarea {
+	
+	margin-top:20px; 
+	height:250px; 
+	width:300px; 
+	border-radius:10px; 
+	font-size:24px; 
+	
+	
+	transition: all 0.30s ease-in-out;
+	
+	-webkit-transition: all 0.30s ease-in-out;
+	
+	-moz-transition: all 0.30s ease-in-out;
+	
+	border:#B4B4B4 2px solid;
+	
+	border-radius: 9px;
+	
+	outline: none;
+}
+
+textarea:focus {
+	border: #00F 2px solid;
+	
+	box-shadow: 0 0 7px #00F;
+	
+	-webkit-box-shadow: 0 0 7px rgba(81, 203, 238, 1);
+	
+	-moz-box-shadow: 0 0 7px rgba(81, 203, 238, 1);	
+}
+
+
+p {
+	font-size:24px; 
+	line-height:55px;
+}
+#btn { 
+	position:relative;
+	top:75px; left:2px; 
+	background:#00F; 
+	color:#fff; 
+	border:#FFF 1px solid;
+}
