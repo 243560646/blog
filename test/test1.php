@@ -11,3 +11,4 @@ function ning($name) {
      return $age;
 }
 echo ning(1984)."<br/>";
+echo "已经修改哈哈哈";
